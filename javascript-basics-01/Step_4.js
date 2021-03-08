@@ -11,6 +11,7 @@ function validating(){
 
     }
     else {
-        alert ('you should enter all 3 values' );
+        alert ('kindly  enter all 3 values : your name , surname and city' );
     }
 }
+//document.getElementById("validate").addEventListener("click", validating());
