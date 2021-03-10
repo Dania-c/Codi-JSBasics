@@ -10,11 +10,11 @@ function checkPassword(){
 
  alert("password input and confirmation input don't match");
 
-    document.getElementById('confirmation').style.border = "3px solid red";
+ confpass.style.border = "3px solid red";
 }
 else{
     alert("great!");
-    document.getElementById('confirmation').style.border = "1px solid black";
+    confpass.style.border = "1px solid black";
 }
 
 }
